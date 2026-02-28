@@ -1,0 +1,36 @@
+{
+  "name": "@paypol/token-vesting-agent",
+  "version": "1.0.0",
+  "description": "PayPol Token Vesting Agent - Create and manage token vesting schedules with linear and cliff vesting support",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "register": "npx ts-node src/register.ts",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "paypol-sdk": "workspace:^",
+    "dotenv": "^16.4.0",
+    "ethers": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "paypol",
+    "token-vesting",
+    "linear-vesting",
+    "cliff-vesting",
+    "defi",
+    "dao"
+  ],
+  "author": "glfldh",
+  "license": "MIT"
+}
