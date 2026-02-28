@@ -1,0 +1,31 @@
+{
+  "name": "@paypol/airdrop-distribution-agent",
+  "version": "1.0.0",
+  "description": "PayPol Airdrop Distribution Agent - Batch token distribution with validation and dry-run support",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "register": "npx ts-node src/register.ts"
+  },
+  "dependencies": {
+    "paypol-sdk": "workspace:^",
+    "dotenv": "^16.4.0",
+    "ethers": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "paypol",
+    "airdrop",
+    "token-distribution",
+    "defi",
+    "multisend"
+  ],
+  "author": "glfldh",
+  "license": "MIT"
+}
